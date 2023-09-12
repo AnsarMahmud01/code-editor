@@ -19,7 +19,7 @@ const taskValidations = [
     <title>My Page</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <h1>Hello World</h1>
   </body>
 </html>`,
 `<html>
@@ -27,7 +27,7 @@ const taskValidations = [
     <title>My Page</title>
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <h1>Hello World</h1>
     <p>I love cats</p>
   </body>
 </html>`,
@@ -41,7 +41,7 @@ const initialTasks = [
   },
   {
     id: 2,
-    description: 'Write a paragraph about yourself',
+    description: 'Write a paragraph: <p>I love cats</p>',
   }
   // Add more tasks as needed
 ];
